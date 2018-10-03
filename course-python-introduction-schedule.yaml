@@ -1,0 +1,58 @@
+course_id: intro_to_python
+locale: en
+schedule_owner: svarlamov
+available_delivery_methods:
+  - live
+instructors:
+  - swelliott
+delivery_structures:
+  - delivery_structure: standard
+    delivery_methods:
+      - live
+    course_duration:
+      weeks: 1
+    session_duration:
+      hours: 3
+    course_notes: |
+      Notes to go on live course page
+    sessions:
+      - session_seq: 1
+        headline: Intro
+        desc: Introduction
+        session_duration:
+          hours: 1
+          minutes: 30
+      - session_seq: 2
+        headline: Basics
+        desc: Basics of the subject
+        session_duration:
+          hours: 1
+          minutes: 30
+      - session_seq: 3
+        headline: Core
+        desc: Core of the subject
+        session_duration:
+          hours: 1
+          minutes: 30
+      - session_seq: 4
+        headline: Summary
+        desc: Summary of the course
+        session_notes: |
+          Will have an extended Q&A session at the end
+        session_duration:
+          hours: 1
+          minutes: 30
+    scheduled_runs:
+      - run_start_date: 2018-12-01 18:00
+        scheduling_timezone: America/Los_Angeles
+        active: true
+        sessions:
+          - session_seq: 1
+            session_start_date: 2018-12-01 18:00
+          - session_seq: 2
+            session_start_date: 2018-12-03 18:00
+          - session_seq: 3
+            session_start_date: 2018-12-05 18:00
+            session_run_notes: Tentative time. May have to move a day earlier
+          - session_seq: 4
+            session_start_date: 2018-12-07 18:00
