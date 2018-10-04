@@ -17,44 +17,42 @@ delivery_structures:
       Notes to go on live course page
     sessions:
       - session_seq: 1
-        headline: Intro
-        desc: Introduction
+        headline: Introduction
+        desc: Get started with Python! For first-timers and beginners to get acquainted with the langauge and environment.
         session_duration:
           hours: 1
           minutes: 30
       - session_seq: 2
-        headline: Basics
-        desc: Basics of the subject
+        headline: "Data: Working with Strings (text) in Python"
+        desc: Start doing meaningful real-world tasks in Python using variables and the String datatype!
         session_duration:
           hours: 1
           minutes: 30
       - session_seq: 3
-        headline: Core
-        desc: Core of the subject
+        headline: "Data: How to Read, Write, and Use Files in Python (File I/O)"
+        desc: After learning the basics of data types in the last session, you will start making even more real-world impact by reading and writing files in Python!
         session_duration:
           hours: 1
           minutes: 30
       - session_seq: 4
-        headline: Summary
-        desc: Summary of the course
-        session_notes: |
-          Will have an extended Q&A session at the end
+        headline: "Project: Your first Python Project"
+        desc: Put all of your new Python skills to the test by working on an application. After this final session, you should be familiarized with Python and ready to continue your learning to become a Python developer or data scientest!
         session_duration:
           hours: 1
           minutes: 30
     scheduled_runs:
-      - run_start_date: 2018-12-01 18:00
+      - run_start_date: 2018-10-11 10:00
         scheduling_timezone: America/Los_Angeles
         active: true
         offered_at_price:
-          amount: 10
+          amount: 20
         sessions:
           - session_seq: 1
-            session_start_date: 2018-12-01 18:00
+            session_start_date: 2018-10-11 10:00
           - session_seq: 2
-            session_start_date: 2018-12-03 18:00
+            session_start_date: 2018-10-16 10:00
           - session_seq: 3
-            session_start_date: 2018-12-05 18:00
+            session_start_date: 2018-10-18 10:00
             session_run_notes: Tentative time. May have to move a day earlier
           - session_seq: 4
-            session_start_date: 2018-12-07 18:00
+            session_start_date: 2018-10-23 10:00
