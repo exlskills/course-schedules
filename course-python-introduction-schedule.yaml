@@ -1,60 +1,90 @@
-course_id: intro_to_python
 locale: en
-schedule_owner: svarlamov
 available_delivery_methods:
   - live
 instructors:
   - swelliott
+course_id: intro_to_python
+schedule_owner: svarlamov
 delivery_structures:
-  - delivery_structure: standard
-    delivery_methods:
-      - live
-    course_duration:
+  - course_duration:
       weeks: 1
     session_duration:
       hours: 3
-    course_notes: |
-      Learn the basics of Python with an experienced Python and Data Scientist based in San Francisco, Elliott Saslow. You'll go from your first line of Python code
-      to solving real-world problems with Python in this 4-session live course. You will be able to attend each session live via video-call, ask questions in real-time,
-      and have a number of assignments throughout the course. You will also have access to each session online in a recorded HD video if you are unable to attend a session.
-      After completing this course, you'll also be prepared to apply for the EXLskills Intro to Python certification. All materials and classes will be conducted in English.
+    delivery_methods:
+      - live
+    delivery_structure: standard
     sessions:
-      - session_seq: 1
+      - session_duration:
+          hours: 1
+          minutes: 30
+        session_seq: 1
         headline: Introduction
-        desc: Get started with Python! For first-timers and beginners to get acquainted with the langauge and environment.
-        session_duration:
+        desc: >-
+          Get started with Python! For first-timers and beginners to get
+          acquainted with the langauge and environment.
+      - session_duration:
           hours: 1
           minutes: 30
-      - session_seq: 2
-        headline: "Data: Working with Strings (text) in Python"
-        desc: Start doing meaningful real-world tasks in Python using variables and the String datatype!
-        session_duration:
+        session_seq: 2
+        headline: 'Data: Working with Strings (text) in Python'
+        desc: >-
+          Start doing meaningful real-world tasks in Python using variables and
+          the String datatype!
+      - session_duration:
           hours: 1
           minutes: 30
-      - session_seq: 3
-        headline: "Data: How to Read, Write, and Use Files in Python (File I/O)"
-        desc: After learning the basics of data types in the last session, you will start making even more real-world impact by reading and writing files in Python!
-        session_duration:
+        session_seq: 3
+        headline: 'Data: How to Read, Write, and Use Files in Python (File I/O)'
+        desc: >-
+          After learning the basics of data types in the last session, you will
+          start making even more real-world impact by reading and writing files
+          in Python!
+      - session_duration:
           hours: 1
           minutes: 30
-      - session_seq: 4
-        headline: "Project: Your first Python Project"
-        desc: Put all of your new Python skills to the test by working on an application. After this final session, you should be familiarized with Python and ready to continue your learning to become a Python developer or data scientest!
-        session_duration:
-          hours: 1
-          minutes: 30
+        session_seq: 4
+        headline: 'Project: Your first Python Project'
+        desc: >-
+          Put all of your new Python skills to the test by working on an
+          application. After this final session, you should be familiarized with
+          Python and ready to continue your learning to become a Python
+          developer or data scientest!
     scheduled_runs:
-      - run_start_date: 2018-10-11 10:00
-        scheduling_timezone: America/Los_Angeles
-        active: true
-        offered_at_price:
-          amount: 20
+      - active: true
         sessions:
           - session_seq: 1
-            session_start_date: 2018-10-11 10:00
+            session_start_date: '2018-10-11 10:00'
+            _id: 1Cdo0qBqZAhR
           - session_seq: 2
-            session_start_date: 2018-10-16 10:00
+            session_start_date: '2018-10-16 10:00'
+            _id: 1Cdo0cTI5PVz
           - session_seq: 3
-            session_start_date: 2018-10-18 10:00
+            session_start_date: '2018-10-18 10:00'
+            _id: 1Cdo0DDqmLix
           - session_seq: 4
-            session_start_date: 2018-10-23 10:00
+            session_start_date: '2018-10-23 10:00'
+            _id: 1Cdo0cm2OTqu
+        run_start_date: '2018-10-11 10:00'
+        scheduling_timezone: America/Los_Angeles
+        offered_at_price:
+          amount: 20
+        _id: 1Cdo0ZcrG18v
+    list_price:
+      amount: 20
+    course_notes: >
+      Learn the basics of Python with an experienced Python and Data Scientist
+      based in San Francisco, Elliott Saslow. You'll go from your first line of
+      Python code
+
+      to solving real-world problems with Python in this 4-session live course.
+      You will be able to attend each session live via video-call, ask questions
+      in real-time,
+
+      and have a number of assignments throughout the course. You will also have
+      access to each session online in a recorded HD video if you are unable to
+      attend a session.
+
+      After completing this course, you'll also be prepared to apply for the
+      EXLskills Intro to Python certification. All materials and classes will be
+      conducted in English.
+    _id: 1Cdo01dkCYIx
