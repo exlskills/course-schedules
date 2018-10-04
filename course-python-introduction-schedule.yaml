@@ -14,7 +14,10 @@ delivery_structures:
     session_duration:
       hours: 3
     course_notes: |
-      Notes to go on live course page
+      Learn the basics of Python with an experienced Python and Data Scientist based in San Francisco, Elliott Saslow. You'll go from your first line of Python code
+      to solving real-world problems with Python in this 4-session live course. You will be able to attend each session live via video-call, ask questions in real-time,
+      and have a number of assignments throughout the course. You will also have access to each session online in a recorded HD video if you are unable to attend a session.
+      After completing this course, you'll also be prepared to apply for the EXLskills Intro to Python certification. All materials and classes will be conducted in English.
     sessions:
       - session_seq: 1
         headline: Introduction
@@ -53,6 +56,5 @@ delivery_structures:
             session_start_date: 2018-10-16 10:00
           - session_seq: 3
             session_start_date: 2018-10-18 10:00
-            session_run_notes: Tentative time. May have to move a day earlier
           - session_seq: 4
             session_start_date: 2018-10-23 10:00
